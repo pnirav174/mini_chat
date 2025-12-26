@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mini_chat/domain/usecases/fetch_random_message.dart';
-
-import 'fetch_word_meaning_test.dart';
+import '../../helpers/fake_chat_repository.dart';
 
 void main() {
   late FetchRandomMessage usecase;

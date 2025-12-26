@@ -6,7 +6,7 @@ import 'package:mini_chat/domain/usecases/fetch_random_message.dart';
 import 'package:mini_chat/domain/usecases/get_users.dart';
 import 'package:mini_chat/domain/usecases/fetch_word_meaning.dart';
 
-import '../usecases/fetch_word_meaning_test.dart';
+import '../../helpers/fake_chat_repository.dart';
 
 class FakeFetchRandomMessage extends FetchRandomMessage {
   FakeFetchRandomMessage() : super(FakeChatRepository());
